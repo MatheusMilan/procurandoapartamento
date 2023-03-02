@@ -11,8 +11,6 @@ using ProcurandoApartamento.Test.Setup;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Linq;
 using Xunit;
-using System.Collections.Generic;
-using ProcurandoApartamento.Domain.Services.Interfaces;
 
 namespace ProcurandoApartamento.Test.Controllers
 {
@@ -24,7 +22,7 @@ namespace ProcurandoApartamento.Test.Controllers
             _client = _factory.CreateClient();
 
             _apartamentoRepository = _factory.GetRequiredService<IApartamentoRepository>();
-            _apartamentoService = _factory.GetRequiredService<IApartamentoService>();
+
 
             InitTest();
         }
@@ -44,7 +42,6 @@ namespace ProcurandoApartamento.Test.Controllers
         private readonly AppWebApplicationFactory<TestStartup> _factory;
         private readonly HttpClient _client;
         private readonly IApartamentoRepository _apartamentoRepository;
-        private readonly IApartamentoService _apartamentoService;
 
         private Apartamento _apartamento;
 
@@ -224,19 +221,5 @@ namespace ProcurandoApartamento.Test.Controllers
             apartamento1.Id = 0;
             apartamento1.Should().NotBe(apartamento2);
         }
-
-        [Fact]
-        public void MelhorApartamento_ShouldReturnCorrectQuadra()
-        {
-            // Arrange
-            string[] pEstabelecimentos = { "ESCOLA, ACADEMIA" };
-
-            // Act
-            var result = _apartamentoService.MelhorApartamento(pEstabelecimentos);
-
-            // Assert
-            Assert.Equal("Quadra 4", result);
-        }
-
     }
 }

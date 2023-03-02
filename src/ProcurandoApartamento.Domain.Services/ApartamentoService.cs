@@ -3,6 +3,10 @@ using JHipsterNet.Core.Pagination;
 using ProcurandoApartamento.Domain.Services.Interfaces;
 using ProcurandoApartamento.Domain.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using LanguageExt;
+using System.Collections.Generic;
+using LanguageExt.ClassInstances;
 
 namespace ProcurandoApartamento.Domain.Services
 {
@@ -40,6 +44,54 @@ namespace ProcurandoApartamento.Domain.Services
         {
             await _apartamentoRepository.DeleteByIdAsync(id);
             await _apartamentoRepository.SaveChangesAsync();
+        }
+        internal class Selecao
+        {
+            public Selecao(int quadra, string estabelecimento)
+            {
+                Quadra = quadra;
+                Estabelecimento = estabelecimento;
+            }
+
+            public int Quadra { get; set; }
+            public string Estabelecimento { get; set; }
+
+        }
+
+        public string MelhorApartamento(string[] pEstabelecimentos)
+        {
+            var lst = _apartamentoRepository.GetAllAsync();
+            List<Selecao> opcoes = new List<Selecao>();
+            if (lst.Result.Count() > 0)
+            {
+                List<Apartamento> lstAp = lst.Result.ToList();
+                foreach (var item in lstAp)
+                {
+                    if (item.EstabelecimentoExiste == true &&
+                        pEstabelecimentos[0].Split(",").Contains(item.Estabelecimento) &&
+                        item.ApartamentoDisponivel == true)
+                        opcoes.Add(new Selecao(item.Quadra, item.Estabelecimento));
+                }
+                if (pEstabelecimentos[0].Split(",").Length == 1)
+                    return "Quadra " + opcoes.Max(p => p.Quadra).ToString();
+                else
+                {
+                    var quadra = -1;
+                    var contEstabelcimentos = -1;
+                    var lstGrupQuadras = opcoes.GroupBy(p => p.Quadra).ToList();
+                    foreach (var item in lstGrupQuadras)
+                    {
+                        if (contEstabelcimentos < item.Count() || (quadra < item.Key && contEstabelcimentos == item.Count()))
+                        {
+                            quadra = item.Key;
+                            contEstabelcimentos = item.Count();
+                        }
+                    }
+                    return "Quadra " + quadra;
+                }
+            }
+            else
+                return "Base de dados Vazia";
         }
     }
 }
