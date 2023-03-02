@@ -1,66 +1,89 @@
-# Projeto Procurando Apartamento
+Matheus Milan Batista
+Masculino, Solteiro(a), 1999-01-25 (23 anos)
+Presidente Venceslau, SP, BR
++55 (18) 99675-0908
+ matheus.milan34@gmail.com
+Formação
+	•	Pós-Graduação
+	Arquitetura de Soluções - Pontifícia Universidade Católica de Minas Gerais
+	de 9/2022 a 9/2023 (cursando)
+	•	Graduação
+	Bacharelado em Sistemas de Informação - Unoeste
+	de 1/2017 a 6/2022 (concluído)
+	•	Técnico
+	Técnico em Informática para a Internet - Etec Professor Milton Gazzetti
+	de 1/2014 a 12/2016 (concluído)
+	•	Ensino Médio - Completo
+	Ensino Médio - Etec Professor Milton Gazzetti
+	de 1/2013 a 12/2015 (concluído)
 
-Você provê um serviço por web de busca de apartamentos para locatários. Neste serviço, neste lugar específico da cidade mostrado no mapa abaixo, estão disponíveis diversos apartamentos em cada uma das quadras. As quadras, além de conter os apartamentos, mostram onde a rua começa e onde termina já que a quadra 1 é o início da rua e quadra (n) é mais próximo a seu final. O mapa não determina, porém, o sentido de pedestres e carros já que é mão dupla. É disponibilizada para esse serviço uma tabela da relação de serviços disponíveis em cada uma das quadras: academia, escola e mercado. Os locatários são pessoas muito ocupadas e trabalham remotamente. Assim, é muito importante que eles morem em um lugar com menor deslocamento possível. O serviço deve, com base na indicação do locatário em necessidades de serviços, buscar um apartamento dentro da quadra que proporcione menor deslocamento para seu dia a dia. 
+Experiência
+	•	Analista de Sistemas Pleno II
+	CHALFIN, GOLDBERG & VAINBOIM Advogados
+	Presidente Venceslau
+	setembro de 2022 até o momento (7 meses)
+	Porte: Empresa de grande porte
+	Último Salário: R$ 6.000,00 CLT + Benefícios
+	Atividades: Sistema Jurídico
+	Tecnologias Azure DevOps | .NET Core | ASP.NET MVC | Jquery | BootStrap | Inspinia |Apis | IIS
+	Banco de Dados MySql
+	Principais linguagens utilizadas C# e Javascript
 
-![image](https://user-images.githubusercontent.com/112395489/187196886-8818cda2-395c-4968-8831-645211fb303b.png)
+	•	Desenvolvedor Pleno
+	Benner
+	Presidente Prudente
+	abril de 2022 até setembro de 2022 (5 meses)
+	Porte: Empresa de grande porte
+	Último Salário: R$ 5.330,00 CLT + Benefícios
+	Atividades: Sistema Saúde
+	Principais linguagens utilizadas C# e Javascript
+	Tecnologias Azure DevOps | .NET Core | ASP.NET MVC | WES | Jquery | Metronic | Apis | Python | IIS
+	Banco de Dados PostgreSql | Oracle
 
-A tabela mostra a relação de “ApartamentosDisponiveis” e os estabelecimentos existentes na quadra. Você deve usá-la para tomar a decisão sobre a melhor escolha de imóvel para seu cliente.
+	•	Desenvolvedor Junior
+	Benner
+	Presidente Prudente
+	novembro de 2021 até março de 2022 (4 meses)
+	Porte: Empresa de grande porte
+	Último Salário: R$ 3.060,00 CLT + Benefícios
+	Atividades: Sistema Saúde
+	Principais linguagens utilizadas C# e Javascript
+	Tecnologias Azure DevOps | .NET Core | ASP.NET MVC | WES | Jquery | Metronic | Apis | Python | IIS
+	Banco de Dados PostgreSql | Oracle
 
-![image](https://user-images.githubusercontent.com/112395489/187196932-38fe6a55-7e7e-4a26-a463-3a3e015335dc.png)
+	•	Estágio Desenvolvimento Web
+	Play Sistemas
+	Presidente Prudente
+	janeiro de 2021 até janeiro de 2022 (1 ano)
+	Porte: Empresa de pequeno porte
+	Último Salário: R$ 800,00 Bolsa Estágio
+	Atividades: Sistema Industrial
+	Principais linguagens utilizadas C# e Javascript
+	Tecnologias .NET Core | ASP.NET MVC | Jquery | Bootstrap | DynamicForms | Apis
+	Banco de Dados SQL Server
 
-A escolha do apartamento vai depender de:
-1.	Ter um apartamento disponível na quadra;
-2.	Andar o mínimo possível para encontrar um estabelecimento de seu interesse;
-3.	A Prioridade de estabelecimentos depende da ordem de entrada de dados. Então se a entrada de dados for ACADEMIA e ESCOLA por exemplo, deve-se priorizar apartamentos mais próximos de ACADEMIAS e depois de ESCOLAS;
-4.	O critério de desempate em caso de mais de uma quadra atender aos requisitos é escolher a quadra mais próxima ao final da rua.  
+	•	Suporte Técnico
+	Softline Automação
+	Presidente Prudente
+	junho de 2021 até novembro de 2021 (5 meses)
+	Porte: Empresa de pequeno porte
+	Último Salário: R$ 2.200,00 CLT + Benefícios
+	Atividades: Suporte aos usuários do Sistema ERP da empresa nos módulos de controle de Estoque, Financeiro, Vendas;
+	Atendimento ao usuário remotamente via ticket, email, telefones e atendimento presencial;
+	Implantação do sistema ERP da empresa em todos os módulos, assim como a instalação e configuração de equipamentos fiscais, impressoras, certificados;
+	Conhecimento nos processos envolvidos na emissão de Nota Fiscal Eletrônica, Cupom Fiscal, Nota Fiscal de Serviço Eletrônica, NFCE;
+	Resolução de conflitos, auxiliando os usuários no uso sistema;
+	Interação com equipe de tecnologia e desenvolvimento fazendo a ligação entre cliente e desenvolvimento observando e avaliando necessidades do cliente e resolução de 	conflitos e futuros problemas, fazendo assim um atendimento mais proativo em benefício do cliente;
+	Investigação de bugs e problemas operacionais do sistema ERP;
+	Orientação aos clientes em relação a possíveis dúvidas, com informações claras e objetivas de forma que a situação seja resolvida da melhor forma para o cliente.
+Idiomas
+	•	Inglês - Intermediário
+	•	Português - Nativo
+Informática
+	•	Avançado
+	Pacote Office
+Adicionais
+	Nenhum filho
+	Disponibilidade para viajar
+	Habilitação (CNH):A, B,
 
-## Exemplos:
-
-Considerando os testes abaixo, os resultados seriam os seguintes: 
-
-- ['ACADEMIA', 'MERCADO'] 
-    - O resultado deve ser QUADRA 1, pois na quadra 1 tem apartamento disponível e os dois estabelecimentos de seu interesse;
-
-- ['ACADEMIA'] 
-    - O resultado deve ser QUADRA 2, pois na quadra 2 tem apartamento disponível, tem academia e está mais próximo do final da rua;
-
-## O que entregar:
-1.	Algoritmo de resolução (Novo método no Controller Apartamento) Exemplo a seguir:
-![image](https://user-images.githubusercontent.com/90634328/187257056-3d55d9e0-11c2-416e-9c07-2eba82665fcf.png)
-
-    - A entrada de dados será um Array de String, e o return do Método será uma String. Ex: "Quadra 5";
-    - Qual seria o resultado caso as entradas sejam:
-        - ['ESCOLA', 'ACADEMIA'];
-        - ['ESCOLA', 'MERCADO', 'ACADEMIA'];
-    
-2.	Criar testes unitários baseado nos exemplos passados;
-![image](https://user-images.githubusercontent.com/90634328/187255894-6ff4700d-0e97-4435-af29-a615925c6d20.png)
-
-
-## Instruções Gerais
-- Você deverá fazer:
- - Fork desse projeto em um repositório Privado, no Seu perfil, com o Titulo "Desenvolvedor-Positivo";
-    - ![image](https://user-images.githubusercontent.com/90634328/187271331-e6582814-f28b-47d8-a940-f39d76a1f62d.png)
-    -![image](https://user-images.githubusercontent.com/90634328/187272263-00e338ce-eb0c-474f-ab72-6c730060df56.png)
-
-- Resolvê-lo e subir ao seu repositório Privado
-- Os acessos devem ser dados para os usuários 'jacirpositivo' e 'ctomasini' apenas;
-- O README.md deverá ser o seu curriculo, com a adequada formatação.
-
-## Requisitos de software para executar o projeto
-- net6.0 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
-- Visual Studio 2022 (https://visualstudio.microsoft.com/pt-br/vs/) ou Visual Studio Code (https://code.visualstudio.com/)
-
-## Comandos
-```{.cs}
-dotnet restore ProcurandoApartamento.sln
-```
-```{.cs}
-dotnet build ProcurandoApartamento.sln
-```
-```{.cs}
-dotnet watch run --project src\ProcurandoApartamento\ProcurandoApartamento.csproj
-```
-```{.cs}
-dotnet test test\ProcurandoApartamento.Test\ProcurandoApartamento.Test.csproj
-```
